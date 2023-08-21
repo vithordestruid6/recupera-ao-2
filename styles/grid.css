@@ -1,0 +1,32 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(9, 20, 70);
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .griing{
+        background-color: rgb(rgb(114, 36, 36), green, blue);
+    }
+    .Imagem{
+        border: 5px dotted rgb(rgb(214, 124, 124), green, blue);
+        width: 180px!important;
+        height: 160px!important;
+    }
+.titulo{
+    font-size: 30px;
+    color: rgb(16, 7, 48);
+    }
+}
